@@ -1,0 +1,21 @@
+apiVersion: v2
+appVersion: 0.0.1
+description: Kodi Matrix
+name: kodi-matrix
+version: 0.0.1
+kubeVersion: ">=1.16.0-0"
+keywords:
+- kodi
+- matrix
+home: https://github.com/rwlove/rwlove-charts
+icon: https://nodered.org/about/resources/media/node-red-icon-2.png
+sources:
+- https://github.com/node-red/node-red-docker
+- https://github.com/k8s-at-home/charts/tree/master/charts/node-red
+maintainers:
+- name: rwlove
+  email: rwlove@github.org
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 4.3.0
