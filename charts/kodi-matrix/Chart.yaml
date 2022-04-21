@@ -10,8 +10,7 @@ keywords:
 home: https://github.com/rwlove/rwlove-charts
 icon: https://nodered.org/about/resources/media/node-red-icon-2.png
 sources:
-- https://github.com/node-red/node-red-docker
-- https://github.com/k8s-at-home/charts/tree/master/charts/node-red
+- https://github.com/rwlove/rwlove-charts/charts
 maintainers:
 - name: rwlove
   email: rwlove@github.org
