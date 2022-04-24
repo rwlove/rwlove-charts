@@ -46,3 +46,15 @@ persistence:
   config:
     enabled: true
     mountPath: /config/.kodi
+
+mariadb:
+  enabled: false
+  architecture: standalone
+  auth:
+    database: kodi
+    username: kodi
+    password: kodi
+    rootPassword: kodi
+  primary:
+    persistence:
+      enabled: false
