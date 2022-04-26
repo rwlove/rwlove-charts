@@ -1,0 +1,20 @@
+apiVersion: v2
+appVersion: 0.0.1
+description: Mopidy
+name: mopidy
+version: 0.0.1
+kubeVersion: ">=1.16.0-0"
+keywords:
+- mopidy
+- spotify
+home: https://github.com/rwlove/rwlove-charts
+icon: https://nodered.org/about/resources/media/node-red-icon-2.png
+sources:
+- https://github.com/rwlove/rwlove-charts/charts
+maintainers:
+- name: rwlove
+  email: rwlove@github.org
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 4.3.0
