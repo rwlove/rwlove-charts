@@ -1,0 +1,21 @@
+apiVersion: v2
+appVersion: latest
+description: rompr
+name: rompr
+version: 0.0.1
+kubeVersion: ">=1.16.0-0"
+keywords:
+- rompr
+- music
+home: https://github.com/rwlove/rwlove-charts
+icon: https://nodered.org/about/resources/media/node-red-icon-2.png
+sources:
+- https://github.com/rwlove/rwlove-charts/charts
+- https://hub.docker.com/r/rawdlite/rompr
+maintainers:
+- name: rwlove
+  email: rwlove@github.org
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 4.3.0
