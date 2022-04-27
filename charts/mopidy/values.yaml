@@ -37,9 +37,6 @@ ingress:
 # -- Configure persistence settings for the chart under this key.
 # @default -- See values.yaml
 persistence:
-  config:
-    enabled: true
-    mountPath: /config/mopidy.conf
   music:
     enabled: true
     mountPath: /music
