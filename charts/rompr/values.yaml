@@ -47,16 +47,9 @@ ingress:
 # -- Configure persistence settings for the chart under this key.
 # @default -- See values.yaml
 persistence:
-  music:
-    enabled: true
-    mountPath: /data/music
   config:
     enabled: true
     mountPath: /root/.config
-  snd:
-    enabled: true
-    type: hostPath
-    hostPath: /dev/snd
 
 securityContext:
   privileged: true
